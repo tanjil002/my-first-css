@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        *{
+           /* margin: 0;*/
+
+        }
+        p{
+            color: royalblue;
+        }
+        #fifth{
+            font-size: 23px;
+            color: red;
+        }
+        .blk{
+            background-color: chartreuse;
+            font-style: oblique;
+            color: black;
+        }
+        .bold{
+            font-weight: 200;
+        }
+        input{
+            background-color: azure;
+        }
+        input[type="password"]{
+            color: blueviolet;
+        }
+        .line{
+            font-size: large;
+            font-style: italic;
+            color: brown;
+        }
+        .blog{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h3>Explore mixed selectors</h3>
+    <p>My first <span class="line">line CSS</span></p>
+    <p class="blk bold">My second line CSS</p>
+    <p>My third line CSS</p>
+    <p>My fourth line CSS</p>
+    <p id="fifth">My fifth line CSS</p>
+    <p>My sixth line CSS</p>
+    <p class="blk bold">My seventh line CSS</p>
+    <ol>
+        <li>Element selector</li>
+        <li>Id selector </li>
+        <li class="bold blk">Class selector </li>
+        <li>Universal</li>
+    </ol>
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui illum soluta dolor, fugiat tenetur eligendi adipisci. Aliquid tenetur minima dolorem.</p>
+    </div>
+    <form action="">
+        <input type="text">
+        <input type="password">
+    </form>
+</body>
+</html>
